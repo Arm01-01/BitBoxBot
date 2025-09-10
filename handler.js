@@ -986,7 +986,7 @@ if (!('delete' in chat)) chat.delete = false
 if (!('modohorny' in chat)) chat.modohorny = false       
 if (!('stickers' in chat)) chat.stickers = false            
 if (!('autosticker' in chat)) chat.autosticker = false      
-if (!('audios' in chat)) chat.audios = true               
+if (!('audios' in chat)) chat.audios = false               
 if (!('antiver' in chat)) chat.antiver = false 
 if (!('antiPorn' in chat)) chat.antiPorn = true     
 if (!('antiLink' in chat)) chat.antiLink = false     
@@ -1035,7 +1035,7 @@ modohorny: false,
 stickers: false,
 autosticker: false,
 audios: false,
-antiver: true,
+antiver: false,
 antiPorn: true,
 antiLink: false,
 antiLink2: false,
@@ -1051,7 +1051,7 @@ antiTwitch: false,
 antifake: false,
 reaction: false,
 viewonce: false,
-modoadmin: false,
+modoadmin: true,
 autorespond: false,
 antitoxic: false,
 game: true, 
@@ -1083,9 +1083,9 @@ if (!('jadibotmd' in settings)) settings.jadibotmd = false
 if (!('prefix' in settings)) settings.prefix = opts['prefix'] || '*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®&.\\-.@Aa';
 } else global.db.data.settings[this.user.jid] = {
 self: false,
-autoread: false,
+autoread: true,
 autoread2: false,
-restrict: false,
+restrict: true,
 temporal: false,
 antiPrivate: false,
 antiCall: false,

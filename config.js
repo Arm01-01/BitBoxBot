@@ -13,20 +13,20 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["5217771303481", 'MichiBot', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿
-["5216572564162"], 
-["5217771303481"],
-["5217771303481"],
-["5217771303481"],
-["5217771303481"],
-["5217771303481"],
-["5217771303481"],
-["5217771303481"],
-["5217771303481"],
-["5217771303481"],
-['5217771303481'],
-['5217771303481'],
-["5217771303481"]]
+["5215585636665", 'BitBox Bot', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿
+["5215527305507"], 
+["5216568679231"],
+["5215534218516"],
+["5215585636665"],
+["5215527305507"],
+["5216568679231"],
+["5215534218516"],
+["5215527305507"],
+["5215527305507"],
+["5215527305507"],
+['5215527305507'],
+['5215527305507'],
+["5215527305507"]]
 
 global.mods = []
 global.prems = []
@@ -104,9 +104,9 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["5217771303481", 'ChukiBot', 1], 
-["5217771303481", 'ChukiBot', 1],  
-["5217771303481", 'ChukiBot', 1]]
+["5215527305507", 'VitBox Bot', 1], 
+["5215585636665", 'BitBox Bot', 1],  
+["5215534218516", 'BitBox Bot', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -114,8 +114,8 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = `ChukiBot` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = `ChukiBot` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.packname = `BitBox Bot` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
+global.author = `BitBox Bot` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -123,7 +123,7 @@ global.author = `ChukiBot` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "5.0 (Beta)"
-global.gt = "ChukiBot"
+global.gt = "BitBox Bot"
 global.imagen = fs.readFileSync('./Menu2.jpg')
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -150,8 +150,8 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "ChukiBot"
-global.igfg = "ChukiBot"
+global.wm = "BitBox Bot"
+global.igfg = "BitBox Bot"
 global.nomorown = "593993684821"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -410,22 +410,22 @@ else return emotttt[results[0][0]];
 
 // IDs de canales
 global.ch = {
-ch1: '120363419710242948@newsletter',
-ch2: '120363400536272752@newsletter',
-ch3: '120363400536272752@newsletter',
-ch4: '120363400536272752@newsletter',
-ch5: '120363400536272752@newsletter',
-ch6: '120363400536272752@newsletter',
-ch7: '120363400536272752@newsletter',
-ch8: '120363400536272752@newsletter', 
-ch9: '120363400536272752@newsletter',
-ch10: '120363400536272752@newsletter',
-ch11: '120363400536272752@newsletter',
-ch12: '120363400536272752@newsletter',
-ch13: '120363400536272752@newsletter',
-ch14: '120363400536272752@newsletter',
-ch15: '120363400536272752@newsletter',
-ch16: '120363400536272752@newsletter',
+ch1: '120363406580316558@newsletter',
+ch2: '120363406580316558@newsletter',
+ch3: '120363406580316558@newsletter',
+ch4: '120363406580316558@newsletter',
+ch5: '120363406580316558@newsletter',
+ch6: '120363406580316558@newsletter',
+ch7: '120363406580316558@newsletter',
+ch8: '120363406580316558@newsletter', 
+ch9: '120363406580316558@newsletter',
+ch10: '120363406580316558@newsletter',
+ch11: '120363406580316558@newsletter',
+ch12: '120363406580316558@newsletter',
+ch13: '120363406580316558@newsletter',
+ch14: '120363406580316558@newsletter',
+ch15: '120363406580316558@newsletter',
+ch16: '120363406580316558@newsletter',
 }
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -436,24 +436,24 @@ console.log(chalk.redBright("Update 'config.js'"));
 import(`${file}?update=${Date.now()}`);
 })
 
-global.yt = 'https://www.instagram.com/richetti_123'
-global.ig = 'https://www.instagram.com/richetti_123'
-global.md = 'https://www.instagram.com/richetti_123'
-global.fb = 'https://www.instagram.com/richetti_123'
-global.tk = 'https://www.instagram.com/richetti_123'
-global.ths = 'https://www.instagram.com/richetti_123'
-global.paypal = 'https://paypal.me/richetti123'
-global.asistencia = 'https://wa.me/5217771303481'
-global.all = 'https://www.instagram.com/richetti_123'
-global.canal1 = 'https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28'
-global.canal2 = 'https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28'
-global.canal3 = 'https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28'
-global.canal4 = 'https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28'
+global.yt = 'https://www.instagram.com/arm.pg_'
+global.ig = 'https://www.instagram.com/arm.pg_'
+global.md = 'https://www.instagram.com/arm.pg_'
+global.fb = 'https://www.instagram.com/arm.pg_'
+global.tk = 'https://www.instagram.com/arm.pg_'
+global.ths = 'https://www.instagram.com/arm.pg_'
+global.paypal = 'https://paypal.me/'
+global.asistencia = 'https://wa.me/5215527305507'
+global.all = 'https://www.instagram.com/arm.pg_'
+global.canal1 = 'https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F'
+global.canal2 = 'https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F'
+global.canal3 = 'https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F'
+global.canal4 = 'https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F'
 
-global.soporteGB = "https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28"
-global.grupo1 = "https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28"
-global.grupo2 = "https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28"
-global.grupo_collab1 = "https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28"
-global.grupo_collab2 = "https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28"
-global.grupo_collab3 = "https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28"
-global.grupo_collab4 = "https://whatsapp.com/channel/0029VbBC9DaGzzKQwuuuTX28"
+global.soporteGB = "https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F"
+global.grupo1 = "https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F"
+global.grupo2 = "https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F"
+global.grupo_collab1 = "https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F"
+global.grupo_collab2 = "https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F"
+global.grupo_collab3 = "https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F"
+global.grupo_collab4 = "https://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F"

@@ -238,7 +238,7 @@ loadDatabase();/*
 /* ------------------------------------------------*/
 
 global.creds = 'creds.json'
-global.authFile = 'MichiBot'
+global.authFile = 'BitBox Bot'
 global.authFileJB  = 'GataJadiBot'
 global.rutaBot = join(__dirname, authFile)
 global.rutaJadiBot = join(__dirname, authFileJB)
@@ -351,7 +351,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['ChukiBot', 'Edge', '20.0.04'] : methodCodeQR ? ['ChukiBot', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['BitBox Bot', 'Edge', '20.0.04'] : methodCodeQR ? ['BitBoxBot', 'Edge', '20.0.04'] : ["Ubuntu", "Chrome", "20.0.04"],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -728,7 +728,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))
 }}
 
 async function purgeOldFiles() {
-const directories = ['./MichiBot/', './GataJadiBot/'];
+const directories = ['./BitBox Bot/', './GataJadiBot/'];
 for (const dir of directories) {
 try {
 if (!fs.existsSync(dir)) { 
