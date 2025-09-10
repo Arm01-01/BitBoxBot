@@ -76,7 +76,7 @@ conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA TERMINADO!!*\n\n_Si no continúa e
 		
 if (user.registered === true) return conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)	
 
-//let groupID = '120363146016943755@g.us' 
+//let groupID = '120363406580316558@g.us' 
 //try {
 //let groupMetadata = await conn.groupMetadata(groupID);
 //let groupMembers = groupMetadata.participants.map(participant => participant.id || participant.jid); 
@@ -2470,7 +2470,7 @@ ${user.registroC === true ? `☘️ *GÉNERO*
 ❇️ *PASATIEMPO(S)*
 ❱❱ ${user.pasatiempo}\n
 ${user.premLimit === 1 ? '' : `🎟️ *PREMIUM*
-❱❱ ${user.premLimit === 1 ? '' : `${user.premiumTime > 0 ? '✅' : '❌'} +10 HORAS || ${user.premiumTime - now} ms`}`}   ` : ''}${user.registroC === true ? `\n🌟 *Si es su primera vez registrándose, recibirá horas premium de forma gratuita como bonificación exclusiva por su primera inscripción, puede cancelar y eliminar su registro en cualquier momento. Gracias por registrarse ✨*` : ''}\n> *Mira tú registro en este canal*\nhttps://whatsapp.com/channel/0029Vb5KnEv0wajldteZlH0G`.trim(),
+❱❱ ${user.premLimit === 1 ? '' : `${user.premiumTime > 0 ? '✅' : '❌'} +10 HORAS || ${user.premiumTime - now} ms`}`}   ` : ''}${user.registroC === true ? `\n🌟 *Si es su primera vez registrándose, recibirá horas premium de forma gratuita como bonificación exclusiva por su primera inscripción, puede cancelar y eliminar su registro en cualquier momento. Gracias por registrarse ✨*` : ''}\n> *Mira tú registro en este canal*\nhttps://whatsapp.com/channel/0029Vb7ZGs0BlHpTqUJJSD0F`.trim(),
 contextInfo: {
 externalAdReply: {
 title: wm,

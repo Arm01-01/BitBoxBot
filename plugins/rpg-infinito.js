@@ -5,6 +5,12 @@ let handler = async (m, { conn }) => {
         global.db.data.users[m.sender].money = Infinity
         global.db.data.users[m.sender].limit = Infinity
         global.db.data.users[m.sender].level = Infinity
+        global.db.data.users[m.sender].tok = Infinity
+        global.db.data.users[m.sender].gold = Infinity
+        global.db.data.users[m.sender].joincount = Infinity
+        global.db.data.users[m.sender].exp = Infinity
+        global.db.data.users[m.sender].emerald = Infinity
+        global.db.data.users[m.sender].iron = Infinity
         
 }
 handler.help = ['cheat']
