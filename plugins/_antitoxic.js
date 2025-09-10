@@ -11,7 +11,7 @@ let bang = m.key.id
 let user = global.db.data.users[m.sender]
 let chat = global.db.data.chats[m.chat]
 let bot = global.db.data.settings[this.user.jid] || {}
-let img = 'https://telegra.ph/file/94f45d76340fc61982bb7.jpg'
+let img = 'https://i.ibb.co/mCq2P8Pr/grupos.jpg'
 const isToxic = toxicRegex.exec(m.text)
     
 if (isToxic && chat.antitoxic && !isOwner && !isAdmin && isBotAdmin) {
