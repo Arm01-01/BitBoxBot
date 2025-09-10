@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text, participants, args, command }) => {
   if (command == 'tagall' || command == 'invocar' || command == 'todos' || command == 'invocación' || command == 'invocacion') {
     let mensaje = args.join` `;
-    let encabezado = `ChukiBot ${mensaje}`;
+    let encabezado = `BitBox Bot ${mensaje}`;
     let texto = `¿Quieren que les baile?\n\n${encabezado}\n\n`;
 
     for (let mem of participants) {
@@ -31,7 +31,7 @@ let handler = async (m, { conn, text, participants, args, command }) => {
     texto += `Lista de miembros:\n`;
 
     for (let mem of memberData) {
-      texto += `🤖 @${mem.id.split('@')[0]} - Mensajes: ${mem.messages}\n`;
+      texto += `🔥 @${mem.id.split('@')[0]} - Mensajes: ${mem.messages}\n`;
     }
 
     conn.sendMessage(m.chat, { text: texto, mentions: memberData.map(a => a.id) }, { quoted: m });
